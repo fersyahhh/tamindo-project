@@ -1,0 +1,35 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+/*Import Tailwind */
+@import "tailwindcss";
+
+/* Color */
+@theme {
+  --color-beige: #f5f2ed;
+  --color-gray: #d1d1cb;
+  --color-charcoal: #1a1a1a;
+  --color-light: #eae8e3;
+}
+
+/* Font */
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.icon {
+  font-family: "Material Symbols Outlined";
+}
+
+body, html {
+  @apply overflow-x-hidden
+}
+
+.container {
+  @apply mx-auto max-w-7xl
+}
