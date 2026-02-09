@@ -53,7 +53,7 @@ const ContactDetails = () => {
           <h1 className="font-inter text-charcoal mt-2 text-sm md:text-base">
             tamindoprojectid@gmail.com
           </h1>
-          <h1 className="font-inter text-charcoal mt-2 text-sm md:text-base">
+          <h1 className="font-inter text-charcoal mt-1 text-sm md:text-base">
             @tamindo_project (Instagram Official)
           </h1>
           <h1 className="font-inter text-charcoal mt-1 text-sm md:text-base">
